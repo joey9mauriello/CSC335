@@ -61,7 +61,9 @@ public class GenericSet<T> {
 	/**
 	* This unionizes the current set with another set.
 	* 
-	* @param list2 The s
+	* @param list2 The set to be unionized with
+	* @return A generic set of the two combined
+	*/
 	public GenericSet<T> unionWith(GenericSet<T> list2) {
 		GenericSet<T> finalSet = this;
 		for (int i = 0; i < list2.size()-1; i++) {
@@ -71,6 +73,11 @@ public class GenericSet<T> {
 		return finalSet;
 	}
 
+	/**
+	* This intersects the current set with another set.
+	* 
+	* @param list2 The set to be intersected with
+	* @return A generic set of the two intersected
 	public GenericSet<T> intersectionWith(GenericSet<T> list2) {
 		GenericSet<T> finalSet = new GenericSet<>();
 		for (int i = 0; i < list.size(); i++) {
