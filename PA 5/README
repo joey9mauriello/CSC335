@@ -1,0 +1,8 @@
+The goal of this assignment was to first create a model that converts degrees in celcius to fahrenheit and vice versa. Next was to write tests for the model.
+Finally, I created a GUI that uses the model to give a display that can take user input.
+
+TemperatureConverter.java - The model containing methods to convert celcius to fahrenheit and vice versa.
+
+TempConverterTest.java - The test code that checks each method of the model is working properly.
+
+TemperatureConverterGUI.java - The GUI created with javafx that displays input methods for the user.
