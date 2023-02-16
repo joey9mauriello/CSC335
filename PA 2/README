@@ -1,0 +1,5 @@
+The goal of this programming assignment was to create a generic set class and write test casses for it.
+
+GenericSet.java - Contains the generic set
+
+GenericSetTest.java - Tests the methods of the generic set
