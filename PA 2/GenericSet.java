@@ -78,6 +78,7 @@ public class GenericSet<T> {
 	* 
 	* @param list2 The set to be intersected with
 	* @return A generic set of the two intersected
+	*/
 	public GenericSet<T> intersectionWith(GenericSet<T> list2) {
 		GenericSet<T> finalSet = new GenericSet<>();
 		for (int i = 0; i < list.size(); i++) {
